@@ -18,7 +18,7 @@ class PianoPerformanceLanguageModelProblem(score2perf.Score2PerfProblem):
     return True
 
 class MusicTransformer:
-  def __init__(self,model_name = 'transformer', hparams_set = 'transformer_tpu', ckpt_path = '/music/models/checkpoints/unconditional_model_16.ckpt'):
+  def __init__(self,model_name = 'transformer', hparams_set = 'transformer_tpu', ckpt_path = '/music/models/unconditional_model_16.ckpt'):
     
     problem = PianoPerformanceLanguageModelProblem()
     self.unconditional_encoders = problem.get_feature_encoders()
