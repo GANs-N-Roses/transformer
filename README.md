@@ -1,4 +1,4 @@
-# music
+# Music Transformer
 
 This is the environment for GANs & Roses music generation model, based on [Magenta Music Transformer](https://magenta.tensorflow.org/music-transformer)
 
