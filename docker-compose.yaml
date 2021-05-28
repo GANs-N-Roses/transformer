@@ -1,0 +1,9 @@
+services:
+  roses:
+    build: .
+    ports:
+      - '8888:8888'
+    volumes:
+       - ./src:/music
+    stdin_open: true
+    tty: true
