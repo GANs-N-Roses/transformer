@@ -1,6 +1,12 @@
+<p align="center">
+<img height=150 src="https://i.imgur.com/VCPjCtU.png">
+</p>
+
 # Music Transformer
 
-This is the environment for GANs & Roses music generation model, based on [Magenta Music Transformer](https://magenta.tensorflow.org/music-transformer)
+This is the basic environment for GANs & Roses music generation model, using [Magenta Music Transformer](https://magenta.tensorflow.org/music-transformer).
+
+For the end-to-end, ready for deployment art to music pipeline, check out our [deploy repository](https://github.com/GANs-N-Roses/deploy). If you are interested in geting to know more about the GANs & Roses project, you might enjoy reading our [Medium article](https://medium.com/@atmguille/d1a7cfe8d59a).
 
 ## Prerequisites
 
